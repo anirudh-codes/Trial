@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    color: green;
+    background-color: yellow;
+    border-color: blue;
+    font-weight: bold;
+    letter-spacing: 30px;
+    border-style: dashed
+}
+
+input[type=text] {
+    border: 4px dashed green;
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px
+}
+
+input[type=tel] {
+    border: 4px double blue;
+    background-color: cyan;
+    color: green;
+    font-weight: bold;
+    font-size: 30px
+}
+
+input[type=email] {
+    border: 4px groove green;
+    background-color: lightpink;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px
+}
+
+h2 {
+    color: green;
+    font-family: Bahnschrift;
+    word-spacing: 30px;
+    text-decoration: overline
+}
+
+ul {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Berlin Sans FB'
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pallindrome</title>
+</head>
+
+<body>
+    <h1>To check whether the string is pallindrome or not</h1>
+    <script lang="JS">
+        function reverse_String() {
+            var str = document.getElementById('text').value;
+            var final_str = str;
+            var split = str.split("");
+            var reverse = split.reverse();
+            var reverse_data = reverse.join("");
+            document.write("<h1>Reverse : " + reverse_data, "</h1>");
+            if (final_str == reverse_data) {
+                document.write("<br><h1>It is palindrome</h1> ");
+            } else {
+                document.write("<br><h1>not palindrome </h1>");
+            }
+        }
+    </script>
+    <input type="text" id="text" placeholder="Enter a String">
+    <input type="submit" name="" onclick="reverse_String()">
+
+</body>
+
+</html>

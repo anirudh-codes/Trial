@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Feedback Form</title>
+    <meta name=author content="modern">
+    <meta name=description content="feedback form for junior college">
+    <style>
+        h1 {
+            color: yellow;
+            letter-spacing: 40;
+            font-family: 'Times New Roman';
+            text-decoration: underline;
+            text-align: center
+        }
+        
+        input[type=text] {
+            border: dashed green 5px;
+            height: 10%;
+            width: 50%;
+            background-color: lightyellow;
+            color: magenta;
+            font-weight: bold;
+            font-size: 20
+        }
+        
+        h3 {
+            color: white;
+            font-weight: bold;
+            text-decoration: overline;
+            letter-spacing: 10;
+            font-size: 30
+        }
+        
+        input[type=email] {
+            border: double blue 5px;
+            font-size: 30;
+            color: green;
+            font-weight: bold;
+            font-style: italic;
+            background-color: pink
+        }
+        
+        body {
+            background-image: url("PES_logo.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: cyan;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Registration Page</h1>
+    <form action="" method="">
+        <table>
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="t1"></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="t2"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="e1"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="r1">MALE</td>
+                <td><input type="radio" name="r1">FEMALE</td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td><select name="qua">
+                        <option>10th Passed</option>
+                        <option>12th Passed</option>
+                        <option>Graduation</option>
+                        <option>Post Graduation</option>
+                    </select></td>
+            </tr>
+        </table>
+
+        <a href="/sop1.html"><input type="button" name="submit" value="submit & fill next form"></a>
+
+
+    </form>
+</body>
+
+</html>
